@@ -1,8 +1,8 @@
-export default 
-function Banner() {
+
+export default function Banner() {
     return(
     <div>
-        <h>Orbit Report</h>
+        <header>Orbit Report</header>
     <p>Click on the buttons to see the satellites in that orbit type</p>
     </div>);    
 } 
