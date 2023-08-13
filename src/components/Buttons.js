@@ -15,6 +15,7 @@ return (
   <button onClick={() => setSat(satData)} key={id}>
     {sat} Not Sure
   </button>
+  )
 };
 
 export default Buttons;
