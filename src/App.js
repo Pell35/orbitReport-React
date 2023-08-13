@@ -1,6 +1,6 @@
 import Buttons from "./components/Buttons";
 import Table from "./components/Table";
-import Banner from "./components/Banner"
+import Banner from "./components/Banner";
 
 function App() {
   return (
