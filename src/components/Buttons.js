@@ -1,7 +1,7 @@
 import satData from "./satData";
-import filterByType from "src/App.js";
-import setSat from "src/App.js";
-import displaySats from "src/App.js";
+import filterByType from "src/App";
+import setSat from "src/App";
+import displaySats from "src/App";
 const Buttons = () => {
   {displaySats.map((sat, id) => {
     return (
