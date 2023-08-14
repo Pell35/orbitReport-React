@@ -1,4 +1,4 @@
-import useState from "react";
+import {useState} from "react";
 import satData from "./components/satData";
 import Buttons from "./components/Buttons";
 import Table from "./components/Table";
@@ -12,7 +12,7 @@ function App() {
        return newSatDisplay.orbitType === currentType;
     });
     setSat(displaySats);
- };
+  };
   return (
     <>
       <Banner />
@@ -26,30 +26,30 @@ function App() {
 }
 
 export default App;
-export const displaySats = (displaySats) => {
-  let id = `input-${displaySats.id}`;
-  return (
-  <>
-  <input id={id} />
-  <label for={id}>{displaySats.label}</label>
-  </>
-  );
-  };
-  export const filterByType = (filterByType) => {
-    let id = `input-${filterByType.id}`;
-    return (
-    <>
-    <input id={id} />
-    <label for={id}>{filterByType.label}</label>
-    </>
-    );
-    };
-    export const setSat = (setSat) => {
-      let id = `input-${setSat.id}`;
-      return (
-      <>
-      <input id={id} />
-      <label for={id}>{setSat.label}</label>
-      </>
-      );
-      };
+// export const displaySats = (displaySats) => {
+//   let id = `input-${displaySats.id}`;
+//   return (
+//   <>
+//   <input id={id} />
+//   <label for={id}>{displaySats.label}</label>
+//   </>
+//   );
+//   };
+//   export const filterByType = (filterByType) => {
+//     let id = `input-${filterByType.id}`;
+//     return (
+//     <>
+//     <input id={id} />
+//     <label for={id}>{filterByType.label}</label>
+//     </>
+//     );
+//     };
+//     export const setSat = (setSat) => {
+//       let id = `input-${setSat.id}`;
+//       return (
+//       <>
+//       <input id={id} />
+//       <label for={id}>{setSat.label}</label>
+//       </>
+//       );
+      // };
