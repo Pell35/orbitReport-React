@@ -1,3 +1,4 @@
+
 const Table = ({ sat }) => {
   return (    <table>
     <thead>
@@ -9,13 +10,13 @@ const Table = ({ sat }) => {
      </tr>
      </thead>
      <tbody> 
-    {sat.map((id, data) => {
+   {sat.map((id, data) => {
        return(
     <tr  key={id}>
      <td>{data.name}</td>
      <td>{data.type}</td>
      <td>{data.launchDate}</td>
-     <td>{data.status}${ data.operation = true ? 'active' : 'inactive' }</td>
+     <td>${data.operational = true ? 'active' : 'inactive' }</td>
       </tr>
        );})}
      </tbody>
