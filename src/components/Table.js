@@ -15,7 +15,7 @@ const Table = ({ sat }) => {
      <td>{data.name}</td>
      <td>{data.type}</td>
      <td>{data.launchDate}</td>
-     <td>{data.status}</td>
+     <td>{data.status}${ data.operation = true ? 'active' : 'inactive' }</td>
       </tr>
        );})}
      </tbody>
