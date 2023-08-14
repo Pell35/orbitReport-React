@@ -1,7 +1,7 @@
 import satData from "./satData";
-import filterByType from "App";
-import setSat from "App";
-import displaySats from "App";
+import App, {filterByType, setSat, displaySats} from "../App";
+// import App, from "../App";
+// import App,  from "../App";
 const Buttons = () => {
   {displaySats.map((sat, id) => {
     return (
@@ -12,8 +12,7 @@ const Buttons = () => {
   })
 }
 return (
-  <button onClick={() => setSat(satData)} key={id}>
-    {sat} Not Sure
+  <button onClick={() => setSat(satData)}>
   </button>
   )
 };
