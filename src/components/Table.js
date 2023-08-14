@@ -1,4 +1,4 @@
-import satData from "./satData";
+
 
 const Table = ({ sat }) => {
 
