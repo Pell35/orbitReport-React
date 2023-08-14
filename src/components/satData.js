@@ -1,4 +1,4 @@
-const satData = [
+const satData = [ //information that is shown in our table
    {
      id: 1,
      name: "Sirius 1",

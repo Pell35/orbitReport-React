@@ -3,7 +3,7 @@ import satData from "./components/satData";
 import Buttons from "./components/Buttons";
 import Table from "./components/Table";
 import Banner from "./components/Banner";
-
+//maps through data and filters by type, props are added in the table and buttons tags below and are returned
 function App() {
   const [sat, setSat] = useState(satData);
   const displaySats = [...new Set(satData.map((data) => data.orbitType))];
@@ -25,31 +25,5 @@ function App() {
   );
 }
 
-export default App;
-// export const displaySats = (displaySats) => {
-//   let id = `input-${displaySats.id}`;
-//   return (
-//   <>
-//   <input id={id} />
-//   <label for={id}>{displaySats.label}</label>
-//   </>
-//   );
-//   };
-//   export const filterByType = (filterByType) => {
-//     let id = `input-${filterByType.id}`;
-//     return (
-//     <>
-//     <input id={id} />
-//     <label for={id}>{filterByType.label}</label>
-//     </>
-//     );
-//     };
-//     export const setSat = (setSat) => {
-//       let id = `input-${setSat.id}`;
-//       return (
-//       <>
-//       <input id={id} />
-//       <label for={id}>{setSat.label}</label>
-//       </>
-//       );
-      // };
+export default App; //has to be exported for index file
+

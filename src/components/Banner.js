@@ -1,6 +1,6 @@
 import React from 'react';
 
-export default function Banner() {
+export default function Banner() { //creates the banner that says Orbit Report and tells about buttons
     return(
     <header>
         <h1>Orbit Report</h1>

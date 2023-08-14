@@ -1,5 +1,6 @@
 
-
+//table that is shown uses sat as a prop, used arrow function to deconstruct, th tags are the headers, td are the cells with the information, used dot.notation to pull those into it
+//used a ternary operator for the operational property that way if it's true it will show as active and false as inactive
 const Table = ({ sat }) => {
 
   return (<table>
@@ -18,7 +19,7 @@ const Table = ({ sat }) => {
             <td>{data.name}</td>
             <td>{data.type}</td>
             <td>{data.launchDate}</td>
-            <td>{data.operational !== false ? 'active' : 'inactive'}</td>
+            <td>{data.operational !== false ? 'active' : 'inactive'}</td> 
           </tr>
         );
       })}
